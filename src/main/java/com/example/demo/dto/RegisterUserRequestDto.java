@@ -7,7 +7,7 @@ import lombok.experimental.Accessors;
 
 @Data
 @Accessors(chain = true)
-public class UserRequestDto {
+public class RegisterUserRequestDto {
     @NotBlank
     @Size(min = 8, max = 50)
     private String login;
